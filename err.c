@@ -1,7 +1,9 @@
+#include "err.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-float err(float x,float y,float r)
+
+float error(float x,float y,float r)
 {
 	if(x>=0 && y>=0 && r>=0)
 	{
